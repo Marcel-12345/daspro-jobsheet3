@@ -27,6 +27,5 @@ public class Tugas2{
         System.out.println("Total gaji bulanan anda adalah Rp. " + gajiBulananKaryawan);
 
     }
-
 }
 

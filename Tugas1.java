@@ -32,6 +32,5 @@ public class Tugas1{
         System.out.println("Apakah penggunaan listrik > 500 kWh? " + (jumlahPenggunaanListrik > 500));
 
     }
-
 }
 
