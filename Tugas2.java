@@ -8,7 +8,8 @@ public class Tugas2{
         //input: jumlah jam kerja, upah (/jam) 
         //output: gaji bulanan karyawan
         //data lain: bonus, pajak
-        //algoritma: input jumlah jam kerja dan upah; total gaji bulanan karyawan = (30 [rata2 hari dalam 1 bulan] * jam [dalam sehari] * upah [per jam]) + 10% - 5 %
+        //algoritma: input jumlah jam kerja dan upah;
+        //total gaji bulanan karyawan = (30 [rata2 hari dalam 1 bulan] * jam [dalam sehari] * upah [per jam]) + 10% - 5 %
 
         double jamKerja;
         double upah;
@@ -19,7 +20,7 @@ public class Tugas2{
         System.out.print("Masukkan jumlah upah (Rupiah per jam): ");
         upah = input.nextDouble();
 
-        gajiBulananKaryawan = (30 * jamKerja * upah ) * 1.1 * 0.95;
+        gajiBulananKaryawan = (30 * jamKerja * upah) * 1.1 * 0.95;
 
         System.out.println("Upah anda Rp. " + upah + " / jam");
         System.out.println("Jam kerja anda adalah " + jamKerja + " jam / hari");
