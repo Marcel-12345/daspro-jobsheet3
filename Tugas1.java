@@ -19,16 +19,11 @@ public class Tugas1{
 
         totalTarifListrik = (tarifListrik * jumlahPenggunaanListrik);
 
-        System.out.println("Apakah jumlah penggunaan listrik > 500 kWh?");
-        if (jumlahPenggunaanListrik > 500) {
-        System.out.println("Ya, penggunaan listrik lebih dari 500 kWh.");
-        } else {
-        System.out.println("Tidak, penggunaan listrik kurang dari atau sama dengan 500 kWh.");
-        }
+        boolean cek = jumlahPenggunaanListrik > 500;
 
         System.out.println("Pemakaian listrik = " + jumlahPenggunaanListrik + " kWh");
         System.out.println("Total tarif listrik adalah Rp. " + totalTarifListrik);
-        System.out.println("Apakah penggunaan listrik > 500 kWh? " + (jumlahPenggunaanListrik > 500));
+        System.out.println("Apakah jumlah penggunaan listrik > 500 kWh? " + cek);
 
     }
 }
