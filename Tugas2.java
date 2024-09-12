@@ -5,11 +5,11 @@ public class Tugas2{
 
         Scanner input = new Scanner(System.in);
 
-        //input: jumlah jam kerja, upah (/jam) 
+        //input: jumlah jam kerja, upah (per jam) 
         //output: gaji bulanan karyawan
         //data lain: bonus, pajak
         //algoritma: input jumlah jam kerja dan upah;
-        //total gaji bulanan karyawan = (30 [rata2 hari dalam 1 bulan] * jam [dalam sehari] * upah [per jam]) + 10% - 5 %
+        //total gaji bulanan karyawan = (30 [rata2 hari dalam 1 bulan] * jam [dalam sehari] * upah [per jam]) + 10% (bonus) - 5% (pajak)
 
         double jamKerja;
         double upah;
