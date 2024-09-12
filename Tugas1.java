@@ -6,7 +6,7 @@ public class Tugas1{
         Scanner input = new Scanner(System.in);
 
         //input: jumlah penggunaan listrik 
-        //output: total tagihan listrik, pengecekan jika total >500 kWh
+        //output: total tagihan listrik, pengecekan jika total > 500 kWh
         //data lain: tarif listrik
         //algoritma: input jumlah penggunaan listrik (jpl) (dalam kWh), tarif listrik = (1500 * jpl), cek apakah jpl > 500 kWh
         
@@ -19,7 +19,7 @@ public class Tugas1{
 
         totalTarifListrik = (tarifListrik * jumlahPenggunaanListrik);
 
-        System.out.println("Apakah jumlah penggunaan listrik >500 kWh?");
+        System.out.println("Apakah jumlah penggunaan listrik > 500 kWh?");
         if (jumlahPenggunaanListrik > 500) {
         System.out.println("Ya, penggunaan listrik lebih dari 500 kWh.");
         } else {
@@ -29,7 +29,7 @@ public class Tugas1{
 
         System.out.println("Pemakaian listrik = " + jumlahPenggunaanListrik + " kWh");
         System.out.println("Total tarif listrik adalah Rp. " + totalTarifListrik);
-        System.out.println("Apakah penggunaan listrik >500 kWh? " + (jumlahPenggunaanListrik > 500));
+        System.out.println("Apakah penggunaan listrik > 500 kWh? " + (jumlahPenggunaanListrik > 500));
 
     }
 

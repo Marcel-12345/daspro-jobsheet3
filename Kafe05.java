@@ -29,6 +29,5 @@ public class Kafe05{
         System.out.println("Nominal Bayar Rp. " + nominalBayar);
 
     }
-
 }
 
