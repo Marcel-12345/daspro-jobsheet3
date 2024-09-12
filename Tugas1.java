@@ -26,7 +26,6 @@ public class Tugas1{
         System.out.println("Tidak, penggunaan listrik kurang dari atau sama dengan 500 kWh.");
         }
 
-
         System.out.println("Pemakaian listrik = " + jumlahPenggunaanListrik + " kWh");
         System.out.println("Total tarif listrik adalah Rp. " + totalTarifListrik);
         System.out.println("Apakah penggunaan listrik > 500 kWh? " + (jumlahPenggunaanListrik > 500));
